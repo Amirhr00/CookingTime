@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Cooking Time</string>
+    <string-array name="food_names">
+        <item>Chicken</item>
+        <item>Fish</item>
+        <item>Sheep</item>
+    </string-array>
+
 </resources>
