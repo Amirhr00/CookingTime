@@ -1,4 +1,4 @@
-package com.rizichi.cookingtime.Model
+package com.rizichi.cookingtime.model
 
 import com.rizichi.cookingtime.R
 

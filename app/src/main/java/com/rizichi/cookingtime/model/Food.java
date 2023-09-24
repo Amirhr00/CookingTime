@@ -1,4 +1,4 @@
-package com.rizichi.cookingtime.Model;
+package com.rizichi.cookingtime.model;
 
 public class Food {
     String name;
