@@ -11,8 +11,9 @@ class FoodList {
     )
 
 
-    fun getfood(i:Int):Food{
+    fun getfood(i: Int):Food{
 
         return foodl[i]
+
     }
 }
