@@ -1,4 +1,4 @@
-package com.rizichi.cookingtime
+package com.rizichi.cookingtime.view
 
 import android.os.Bundle
 import android.view.View
@@ -8,6 +8,7 @@ import androidx.activity.ComponentActivity
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import com.rizichi.cookingtime.R
 import com.rizichi.cookingtime.databinding.ActivityMainBinding
 import com.rizichi.cookingtime.viewModel.CookViewModel
 
@@ -28,7 +29,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         //    Declare actv
-        actv=DataBindingUtil.setContentView(this,R.layout.activity_main)
+        actv=DataBindingUtil.setContentView(this, R.layout.activity_main)
 
 
         //    Declare cVM
